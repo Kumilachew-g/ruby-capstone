@@ -8,14 +8,14 @@ class Main
   def run
     action = 0
     puts
-    puts 'Welcome to our application!'
+    puts 'Welcome to my catalog!'
     while action != 10
       display_actions
       action = gets.chomp.to_i
       @app.handle_action(action)
     end
     @app.save_data
-    puts 'Thank you for using our application'
+    puts 'Thank you for using my catalog'
   end
 
   def display_actions
