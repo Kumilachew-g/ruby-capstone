@@ -53,7 +53,7 @@ class App
   end
 
   def list_all_game
-    puts 'Games'
+    puts 'LIST OF GAMES:'
     @games.each_with_index do |game, index|
       puts "#{index + 1}) Multiplayer: #{game.multiplayer}, Last Played At: #{game.last_played_at},
       Publish Date: #{game.publish_date}"
@@ -61,7 +61,7 @@ class App
   end
 
   def list_all_authors
-    puts "LIST OF AUTHORS:\n\n"
+    puts "LIST OF AUTHORS:"
     @authors.each_with_index do |author, index|
       puts "#{index + 1}) #{author.first_name} #{author.last_name}"
     end
