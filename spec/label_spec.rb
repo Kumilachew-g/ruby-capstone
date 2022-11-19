@@ -1,5 +1,7 @@
 require 'date'
-require_relative '../ruby_classes/label'
+
+require_relative '../classes/label'
+
 describe Label do
   describe Label.new('Lord of the Rings', 'red') do
     it { is_expected.to have_attributes(title: 'Lord of the Rings') }

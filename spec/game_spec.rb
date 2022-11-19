@@ -1,4 +1,4 @@
-require './ruby_classes/game'
+require './classes/game'
 
 describe Game do
   context 'test game' do

@@ -1,4 +1,5 @@
-require_relative '../ruby_classes/book'
+require_relative '../classes/book'
+
 describe Book do
   describe Book.new('George Martin', 'bad', '2015-01-30') do
     it { is_expected.to have_attributes(publisher: 'George Martin') }
