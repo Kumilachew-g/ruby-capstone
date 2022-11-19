@@ -1,4 +1,4 @@
-require './ruby_classes/game'
+require './classes/game'
 require 'json'
 
 module GameController

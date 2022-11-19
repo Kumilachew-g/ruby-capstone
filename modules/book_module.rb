@@ -1,4 +1,4 @@
-require './ruby_classes/book'
+require './classes/book'
 require 'json'
 require 'date'
 

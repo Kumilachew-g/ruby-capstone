@@ -1,4 +1,4 @@
-require './ruby_classes/author'
+require './classes/author'
 require 'json'
 
 module AuthorController
