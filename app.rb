@@ -63,7 +63,7 @@ class App
   def list_all_authors
     puts "LIST OF AUTHORS:\n\n"
     @authors.each_with_index do |author, index|
-      puts "[#{index}] #{author.first_name} #{author.last_name}"
+      puts "#{index + 1}) #{author.first_name} #{author.last_name}"
     end
   end
 
