@@ -1,4 +1,4 @@
-require './ruby_classes/label'
+require './classes/label'
 require 'json'
 require 'date'
 

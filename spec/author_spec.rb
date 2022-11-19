@@ -1,5 +1,6 @@
-require './ruby_classes/author'
-require './ruby_classes/game'
+require './classes/author'
+
+require './classes/game'
 
 describe Author do
   before(:each) do

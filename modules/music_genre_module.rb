@@ -1,4 +1,4 @@
-require './ruby_classes/music_genre'
+require './classes/music_genre'
 require 'json'
 
 module MusicGenresDataController

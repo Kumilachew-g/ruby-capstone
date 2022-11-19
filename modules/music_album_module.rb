@@ -1,4 +1,4 @@
-require './ruby_classes/music_album'
+require './classes/music_album'
 require 'json'
 
 module MusicAlbumDataController
