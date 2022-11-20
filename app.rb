@@ -134,7 +134,7 @@ class App
     on_spotify = gets.chomp.downcase == 'y' || false
 
     @music_albums << MusicAlbum.new(name, publish_date, on_spotify)
-    puts 'Album created successfully'
+    puts 'Well done, album created successfully'
   end
 
   def add_game
