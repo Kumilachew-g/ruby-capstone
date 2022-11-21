@@ -103,7 +103,7 @@ class App
     if @books.empty?
       puts('No Books Available')
     else
-      puts "LIST OF ALL BOOKS -->\n"
+      puts "List of All Books:\n"
     end
     @books.each_with_index do |book, index|
       puts "#{index + 1}) Publisher: #{book.publisher}, Cover_state: #{book.cover_state}, Publish_date: #{book.publish_date}"
